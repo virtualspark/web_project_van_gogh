@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles/index.css" rel="stylesheet" type="text/css" />
+    <link href="styles/globalStyleSheet.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/VanGogh_Logo2.jpg" />
+    <title>Vincent Van Gogh | Home Page</title>
+    <meta name="description" content="Vincent van Gogh, Dutch painter best known for his expressive 
+        use of line and color that defined his Post-Impressionist style." />
+</head>
+
+<body>
+    <header id="header">
+        <p><img id="heading" src="images/VanGogh_header.png" alt="vangogh"></p>
+    </header>
+
+    <!--start navibar-->
+    <nav>
+        <p>
+            <a href="index.html">Home</a><br />
+            <a href="artistbio.html">Artist Bio</a><br />
+            <a href="gallery.html">Gallery</a><br />
+            <a href="cartPage.html">Cart</a><br />
+            <a href="contactUs.html">Contact</a><br />
+            <!-- Social Media Buttons -->
+            <br />
+            <img src="images/socialIcons.png" alt="socialIcons" width="150">
+    </nav>
+    <!--end navibar-->
+
+    <main>
+        <!--Animated Pictures-->
+        <p>
+            <img src="images/vangogh_nav.webp" alt="Van Gogh Exihibit" style="width:36%;">
+            <img src="images/vangogh_nav2.webp" alt="Van Gogh Exihibit" style="width:38.5%;">
+        </p>
+
+        <!--Artist Bio-->
+        <table id="bio">
+            <tr>
+                <td>
+                    <span style="font-family: 'Lato', sans-serif; font-size: 35px;"><br/><b>Artist Bio</b></span>
+                    <p>Dutch post-impressionist painter who is among the most famous and
+                        infleuntial figures in the history of Western art. In just over a
+                        decade, he created about 2,100 artworks, including around 860 oil
+                        paintings, most of which date from the last two years of his life.</p>
+                    <a href="artistbio.html">Learn More.</a>
+                </td>
+                <td>
+                    <img id="bioPic" src="images/vangogh.jpg" alt="Van Gogh Exihibit">
+                </td>
+            </tr>
+        </table>
+
+        <!--Gallery-->
+        <span style="font-family: 'Lato', sans-serif; font-size: 35px;"><br><b>Gallery</b></span>
+
+        <p>
+            <img src="images/gallery.png" alt="Gallery" style="width: 75%;">
+        </p>
+
+        <fieldset id="contactUs" style="width: 70%;">
+            
+            <legend>
+                <span style="font-family: 'Lato', sans-serif; font-size: 35px;"><br><b>Any feedback?</b></span>
+            </legend>
+            
+            <table>
+                <tr>
+                    <td><label for="name">Name*</label></td>
+                    <td><input type="text" id="name" size="50" maxlength="30" placeholder="John Smith" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="text" id="email" size="50" maxlength="30" placeholder="email@example.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message</label></td>
+                    <td><textarea id="message" cols="48" rows="5" placeholder="Ask us anything!"></textarea></td>
+                </tr>             
+            </table><br>
+            
+            <input type="submit" id="submit_feedback" value="Submit" /><br>
+        
+        </fieldset>
+        
+        <br />
+    
+    </main>
+
+    <footer>
+        Vincent Van Gogh Media - 5555 Arsenal Ave. Montreal, QC - (514) 555 5555 -
+        <a href="mailto:hello@vincentvangogh.com">hello@vincentvangogh.com</a> <br> &copy; Copyright 2020 - Vincent Van Gogh Media
+
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+            </a>
+        </p>  
+
+    </footer>
+
+</body>
+
+</html>

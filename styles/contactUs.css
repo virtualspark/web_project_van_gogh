@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#contactForm {
+    display: table;
+    padding: 1px 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+form{
+    margin: 0;
+    padding: 0;
+}

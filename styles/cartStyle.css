@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+#header {
+    text-align: center;
+}
+
+#cart_form {
+    width: 50%;
+    float: left; 
+}
+
+#cartContainer {
+    width: auto;
+    font-weight: bolder;
+}
+
+#cartTitle {
+    font-weight: bolder;
+    text-align: center;
+}
+
+fieldset {
+    width: 80%;
+    font-weight: bolder;
+    border: 5px double indigo;
+}
+
+.formTable {
+    float: left;
+    column-width: 10px;
+    border-spacing: 30px 5px;
+}
+
+input[type="text"] {
+    height: 25px;
+}
+
+#cardsIcons {
+    column-width: 100px;
+    border-spacing: 30px 5px;
+}
+
+input[type='submit'] {
+    background-color: lightgray;
+    border-radius: 20px;
+    height: 35px;
+    width: 200px;
+}
+
+ input[type='reset'] {
+    background-color: lightgray;
+    border-radius: 20px;
+    height: 35px;
+    width: 200px;
+}
+
